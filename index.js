@@ -3,11 +3,13 @@ window.addEventListener('DOMContentLoaded', function () {
     const checkboxes = document.getElementsByClassName('checkbox');
     const modalTrigger = document.querySelectorAll('.change_img');
     const overlay = document.querySelector('.overlay');
-    const modal1 = document.querySelector('.modal-buy');
+    const modal1 = document.querySelector('.modal__buy');
     const modalbuyclose = document.querySelector('.modal__buy-close');
     const buttonSubmit = document.querySelector('.card__right-button');
     const checkboxtwo = document.querySelector('.checkbox-two');
     const sum = document.querySelector('.sum__all').textContent;
+
+    console.log(modalTrigger);
 
     //связь чекбокса и изменение текста кнопки
 
@@ -20,9 +22,9 @@ window.addEventListener('DOMContentLoaded', function () {
     });
 
     //модальные окна
-
     modalTrigger.forEach((item) => {
         item.addEventListener('click', () => {
+            console.log('click');
             overlay.classList.remove('hidden');
             modal1.classList.remove('hidden');
             document.body.style.overflow = 'hidden';

@@ -375,7 +375,7 @@
                             <div class="card__left-userPay-info">
                                 <div class="card__left-userPay-header">
                                     <h2>Способ оплаты</h2>
-                                    <h3 class="modalTrigger">Изменить</h3>
+                                    <h3 class="change-img">Изменить</h3>
                                 </div>
                                 <div class="card__left-userPay-main">
                                     <img src="./img/mir-pay.svg" alt="mir-pay" />
@@ -472,7 +472,7 @@
                         <div class="card__right-address-full">
                             <div class="card__right-address-header">
                                 <h4 class="card__right-address-h4">Доставка в пункт выдачи</h4>
-                                <img src="./img/change.svg" alt="change-img" class="change_img" />
+                                <img src="./img/change.svg" alt="change-img" class="change_img2" />
                             </div>
                             <h4 class="card__right-address-info">
                                 Бишкек, улица Ахматбека Суюмбаева, 12/1
@@ -491,7 +491,7 @@
                         <div class="card__right-pay-full">
                             <div class="card__right-pay-header">
                                 <h4 class="card__right-pay-h4">Оплата картой</h4>
-                                <img src="./img/change.svg" alt="change-img" class="change_img2" />
+                                <img src="./img/change.svg" alt="change-img" class="change_img" />
                             </div>
                             <div class="card__right-pay-footer">
                                 <img
@@ -540,31 +540,33 @@
             </div>
         </footer>
         <div class="overlay hidden"></div>
-        <div class="modal-buy hidden">
-            <h2>Способ оплаты</h2>
-            <div>
+        <div class="modal__buy hidden">
+            <div class="modal__buy-wrapper">
+                <h2>Способ оплаты</h2>
                 <div>
-                    <input type="radio" />
-                    <img src="./img/mir-pay.svg" alt="mir-pay.svg" />
-                    <div>1234 56•• •••• 1234</div>
+                    <div>
+                        <input type="radio" />
+                        <img src="./img/mir-pay.svg" alt="mir-pay.svg" />
+                        <div>1234 56•• •••• 1234</div>
+                    </div>
+                    <div>
+                        <input type="radio" />
+                        <img src="./img/visa-pay.svg" alt="visa-pay" />
+                        <div>1234 56•• •••• 1234</div>
+                    </div>
+                    <div>
+                        <input type="radio" />
+                        <img src="./img/mastercard.svg" alt="mastercard-pay" />
+                        <div>1234 56•• •••• 1234</div>
+                    </div>
+                    <div>
+                        <input type="radio" />
+                        <img src="./img/mastercard2.svg" alt="mastercard2" />
+                        <div>1234 56•• •••• 1234</div>
+                    </div>
                 </div>
-                <div>
-                    <input type="radio" />
-                    <img src="" alt="" />
-                    <div>1234 56•• •••• 1234</div>
-                </div>
-                <div>
-                    <input type="radio" />
-                    <img src="" alt="" />
-                    <div>1234 56•• •••• 1234</div>
-                </div>
-                <div>
-                    <input type="radio" />
-                    <img src="" alt="" />
-                    <div>1234 56•• •••• 1234</div>
-                </div>
+                <button class="modal__buy-close">Выбрать</button>
             </div>
-            <button class="modal__buy-close">Выбрать</button>
         </div>
         <script src="./index.js"></script>
     </body>
