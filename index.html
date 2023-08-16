@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Товары и точка</title>
+        <link rel="stylesheet" href="./nml.css" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__left">
+                <div class="header__left-button">
+                    <img src="./img/burger.svg" alt="header__left-button" />
+                </div>
+                <div class="header__left-text">
+                    Товары<br />
+                    и точка
+                </div>
+            </div>
+            <div class="header__mid">
+                <input type="text" class="header__mid-input" placeholder="Я ищу..." />
+                <img class="header__mid-img" src="./img/search.svg" alt="search-img" />
+            </div>
+            <div class="header__right">
+                <div class="header__right-one">
+                    <img src="./img/login.svg" alt="login_img" />
+                    <p class="header__right-text">Профиль</p>
+                </div>
+                <div class="header__right-two">
+                    <img src="./img/card.svg" alt="card-img" />
+                    <p class="header__right-text">Корзина</p>
+                </div>
+            </div>
+        </header>
+        <div class="header__bottom">
+            <div class="header__bottom-rectangle"></div>
+        </div>
+        <main class="main">
+            <section class="card__left">
+                <h1>Корзина</h1>
+                <div class="card__left-main">
+                    <div class="card__left-stock">
+                        <div class="card__left-header">
+                            <div class="card__left-header-left">
+                                <input type="checkbox" id="checkbox1" class="checkbox" />
+                                <label for="checkbox1" class="checkbox-label">
+                                    <span class="checkbox-icon"></span>
+                                </label>
+                                <h2 class="card__left-header-h2">Выбрать все</h2>
+                            </div>
+                            <img
+                                class="card__left-header-right"
+                                src="./img/arrow-up.svg"
+                                alt="arrow-up" />
+                        </div>
+                        <div class="card__left-items">
+                            <div class="card__left-items-one">
+                                <div class="card__left-items-one-left">
+                                    <input type="checkbox" id="checkbox2" class="checkbox" />
+                                    <label for="checkbox2" class="checkbox-label">
+                                        <span class="checkbox-icon"></span>
+                                    </label>
+                                    <img
+                                        src="./img/imageItems/tshirt.png"
+                                        alt="tshirt-img"
+                                        class="card__left-items-img" />
+                                    <div class="card__left-items-info">
+                                        <h3 class="card__left-items-h3">
+                                            Футболка UZcotton мужская
+                                        </h3>
+                                        <div class="card__left-items-colors">
+                                            <h4>Цвет: белый</h4>
+                                            <h4>Размер: 56</h4>
+                                        </div>
+                                        <div class="card__left-items-adress">
+                                            <p>Коледино WB</p>
+                                            <div class="card__left-items-adress-additional">
+                                                <p>OOO Вайлдберриз</p>
+                                                <img src="./img/info.svg" alt="inf-img" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__left-items-one-right">
+                                    <div class="card__left-quant">
+                                        <div class="card__left-counter1">
+                                            <img src="./img/counter/minus.svg" alt="minus-img" />
+                                            <p>1</p>
+                                            <img
+                                                src="./img/counter/activeplus.svg"
+                                                alt="plusactive-img" />
+                                        </div>
+                                        <p class="card__left-qn">Осталось 2 шт.</p>
+                                        <div class="card__left-icons-right">
+                                            <img
+                                                class="card__left-heart-img"
+                                                src="./img/heart.svg"
+                                                alt="heart-img" />
+                                            <img
+                                                class="card__left-trash-img"
+                                                src="./img/trash.svg"
+                                                alt="trash-img" />
+                                        </div>
+                                    </div>
+                                    <div class="card__left-sum">
+                                        <h2>522 сом</h2>
+                                        <p class="card__left-sum-old">1051 сом</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__left-items-two">
+                                <div class="card__left-items-two-left">
+                                    <input type="checkbox" id="checkbox3" class="checkbox" />
+                                    <label for="checkbox3" class="checkbox-label">
+                                        <span class="checkbox-icon"></span>
+                                    </label>
+                                    <img
+                                        src="./img/imageItems/phoneItem.png"
+                                        alt="tshirt-img"
+                                        class="card__left-items-img" />
+                                    <div class="card__left-items-info">
+                                        <h3 class="card__left-items-h3">
+                                            Силиконовый чехол картхолдер<br />
+                                            (отверстия) для карт, прозрачный<br />
+                                            кейс бампер на Apple iPhone XR,<br />
+                                            MobiSafe
+                                        </h3>
+                                        <div class="card__left-items-colors">
+                                            <h4>Цвет: прозрачный</h4>
+                                        </div>
+                                        <div class="card__left-items-adress">
+                                            <p>Коледино WB</p>
+                                            <div class="card__left-items-adress-additional">
+                                                <p>OOO Мегапрофстиль</p>
+                                                <img src="./img/info.svg" alt="inf-img" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__left-items-two-right">
+                                    <div class="card__left-quant2">
+                                        <div class="card__left-counter2">
+                                            <img src="./img/counter/minus.svg" alt="minus-img" />
+                                            <p>200</p>
+                                            <img
+                                                src="./img/counter/activeplus.svg"
+                                                alt="plusactive-img" />
+                                        </div>
+                                        <div class="card__left-icons-right">
+                                            <img
+                                                class="card__left-heart-img"
+                                                src="./img/heart.svg"
+                                                alt="heart-img" />
+                                            <img
+                                                class="card__left-trash-img"
+                                                src="./img/trash.svg"
+                                                alt="trash-img" />
+                                        </div>
+                                    </div>
+                                    <div class="card__left-sum">
+                                        <div class="card__left-sum-wrap">
+                                            <h4 class="card__left-sum-new">2 100 047</h4>
+                                            <h4 class="card__left-sum-new">сом</h4>
+                                        </div>
+                                        <h4 class="card__left-sum-old">2 300 047 сом</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__left-items-three">
+                                <div class="card__left-items-three-left">
+                                    <input type="checkbox" id="checkbox4" class="checkbox" />
+                                    <label for="checkbox4" class="checkbox-label">
+                                        <span class="checkbox-icon"></span>
+                                    </label>
+                                    <img
+                                        src="./img/imageItems/book.png"
+                                        alt="tshirt-img"
+                                        class="card__left-items-img" />
+                                    <div class="card__left-items-info">
+                                        <h3 class="card__left-items-h3">
+                                            Карандаши цветные Faber-Castell<br />
+                                            "Замок", набор 24 цвета,<br />
+                                            заточенные, шестигранные,<br />Faber-Castell
+                                        </h3>
+                                        <div class="card__left-items-colors"></div>
+                                        <div class="card__left-items-adress">
+                                            <p>Коледино WB</p>
+                                            <div class="card__left-items-adress-additional">
+                                                <p>OOO Вайлдберриз</p>
+                                                <img src="./img/info.svg" alt="inf-img" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__left-items-three-right">
+                                    <div class="card__left-quant">
+                                        <div class="card__left-counter3">
+                                            <img src="./img/counter/minus.svg" alt="minus-img" />
+                                            <p>2</p>
+                                            <img
+                                                src="./img/counter/activeplus.svg"
+                                                alt="plusactive-img" />
+                                        </div>
+                                        <p class="card__left-qn">Осталось 2 шт.</p>
+                                        <div class="card__left-icons-right">
+                                            <img
+                                                class="card__left-heart-img"
+                                                src="./img/heart.svg"
+                                                alt="heart-img" />
+                                            <img
+                                                class="card__left-trash-img"
+                                                src="./img/trash.svg"
+                                                alt="trash-img" />
+                                        </div>
+                                    </div>
+                                    <div class="card__left-sum">
+                                        <h2>494 сом</h2>
+                                        <p class="card__left-sum-old">950 сом</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__left-outstock">
+                        <div class="card__left-header">
+                            <h2 class="card__left-header-h2">Отсутствуют · 3 товара</h2>
+                            <img
+                                class="card__left-header-right"
+                                src="./img/arrow-up.svg"
+                                alt="arrow-up" />
+                        </div>
+                        <div class="card__left-outstock-items">
+                            <div class="card__left-outstock-one">
+                                <div class="card__left-outstock-one-left">
+                                    <img src="./img/imageItems/tshirt2.png" alt="tshirt-out" />
+                                    <div>
+                                        <h2>Футболка UZcotton мужская</h2>
+                                        <div>
+                                            <h3>Цвет: белый</h3>
+                                            <h3>Размер: 56</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__left-outstock-right">
+                                    <div class="card__left-outstock-icons-wrap">
+                                        <div class="card__left-outstock-icons">
+                                            <img
+                                                class="card__left-heart-img"
+                                                src="./img/heart.svg"
+                                                alt="heart-img" />
+                                            <img
+                                                class="card__left-trash-img"
+                                                src="./img/trash.svg"
+                                                alt="trash-img" />
+                                        </div>
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="card__left-outstock-two">
+                                <div class="card__left-outstock-two-left">
+                                    <img src="./img/imageItems/phoneItem2.png" alt="phone-out" />
+                                    <div>
+                                        <h2>
+                                            Силиконовый чехол картхолдер<br />
+                                            (отверстия) для карт, прозрачный кейс<br />
+                                            бампер на Apple iPhone XR, MobiSafe
+                                        </h2>
+                                        <div>
+                                            <h3>Цвет: прозрачный</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card__left-outstock-right">
+                                    <div class="card__left-outstock-icons-wrap">
+                                        <div class="card__left-outstock-icons">
+                                            <img
+                                                class="card__left-heart-img"
+                                                src="./img/heart.svg"
+                                                alt="heart-img" />
+                                            <img
+                                                class="card__left-trash-img"
+                                                src="./img/trash.svg"
+                                                alt="trash-img" />
+                                        </div>
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="card__left-outstock-three">
+                                <div class="card__left-outstock-three-left">
+                                    <img src="./img/imageItems/book2.png" alt="book-out" />
+                                    <div>
+                                        <h2>
+                                            Карандаши цветные Faber-Castell<br />
+                                            "Замок", набор 24 цвета, заточенные,<br />
+                                            шестигранные, Faber-Castell
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="card__left-outstock-right">
+                                    <div class="card__left-outstock-icons-wrap">
+                                        <div class="card__left-outstock-icons">
+                                            <img
+                                                class="card__left-heart-img"
+                                                src="./img/heart.svg"
+                                                alt="heart-img" />
+                                            <img
+                                                class="card__left-trash-img"
+                                                src="./img/trash.svg"
+                                                alt="trash-img" />
+                                        </div>
+                                    </div>
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__left-userInfo">
+                        <div class="card__left-userDeliv">
+                            <div class="card__left-userDeliv-head">
+                                <div class="card__left-userDeliv-header">
+                                    <h2>Способ доставки</h2>
+                                    <h3>Изменить</h3>
+                                </div>
+                                <div class="card__left-userDeliv-main">
+                                    <div class="card__left-userDeliv-main-one">
+                                        <div class="card__left-headers-one">Пункт выдачи</div>
+                                        <div class="card__left-headers-two">Стоимость доставки</div>
+                                        <div class="card__left-headers-three">5—6 февраля</div>
+                                        <div class="card__left-headers-four">7—8 февраля</div>
+                                    </div>
+                                    <div class="card__left-userDeliv-main-two">
+                                        <div class="card__left-userDeliv-main-two-header">
+                                            <h4>Бишкек, улица Ахматбека Суюмбаева, 12/1</h4>
+                                            <div class="card__left-userDeliv-main-two-header-img">
+                                                <div class="card__left-userDeliv-main-two-stars">
+                                                    <img src="./img/star.svg" alt="star-img" />
+                                                    <h5>4.99</h5>
+                                                </div>
+                                                <h5>Ежедневно с 10 до 21</h5>
+                                            </div>
+                                        </div>
+                                        <div class="card__left-userDeliv-main-free">Бесплатно</div>
+                                        <div class="card__left-userDeliv-main-two-img-one">
+                                            <img
+                                                src="./img/imageItems/small/tshirtsmall.png"
+                                                alt="tshirt" />
+                                            <img
+                                                src="./img/imageItems/small/phonesmall.png"
+                                                alt="phone-small" />
+                                            <img
+                                                src="./img/imageItems/small/booksmall.png"
+                                                alt="book-small" />
+                                        </div>
+                                        <div>
+                                            <img
+                                                src="./img/imageItems/small/booksmall.png"
+                                                alt="book-small" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card__left-userDeliv-footer">
+                                <img src="./img/greencheck.svg" alt="greencheck" />
+                                <h5>
+                                    Обратная доставка товаров на склад при отказе —
+                                    <span>бесплатно</span>
+                                </h5>
+                            </div>
+                        </div>
+                        <div class="card__left-userPay">
+                            <div class="card__left-userPay-info">
+                                <div class="card__left-userPay-header">
+                                    <h2>Способ оплаты</h2>
+                                    <h3 class="modalTrigger">Изменить</h3>
+                                </div>
+                                <div class="card__left-userPay-main">
+                                    <img src="./img/mir-pay.svg" alt="mir-pay" />
+                                    <div class="card__left-userPay-cardNumber">
+                                        <h4>1234 56•• •••• 1234</h4>
+                                        <h4>01/30</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <h5 class="card__left-userPay-moreinfo">
+                                Спишем оплату с карты при получении
+                            </h5>
+                        </div>
+                        <div class="card__left-userForm">
+                            <h2>Получатель</h2>
+                            <div class="card__left-useForm-wrap">
+                                <div class="card__left-useForm-first">
+                                    <div class="card__left-useForm-elem">
+                                        <label class="card__left-useForm-label" for="name"></label>
+                                        <input
+                                            id="name"
+                                            type="text"
+                                            placeholder="Имя"
+                                            class="card__left-input" />
+                                        <div></div>
+                                    </div>
+                                    <div class="card__left-useForm-elem">
+                                        <label
+                                            class="card__left-useForm-label"
+                                            for="surname"></label>
+                                        <input
+                                            id="surname"
+                                            type="text"
+                                            placeholder="Фамилия"
+                                            class="card__left-input" />
+                                        <div></div>
+                                    </div>
+                                </div>
+                                <div class="card__left-useForm-two">
+                                    <div class="card__left-useForm-elem">
+                                        <label class="card__left-useForm-label" for="email"></label>
+                                        <input
+                                            id="email"
+                                            type="email"
+                                            placeholder="Почта"
+                                            class="card__left-input" />
+                                        <div></div>
+                                    </div>
+                                    <div class="card__left-useForm-elem">
+                                        <label class="card__left-useForm-label" for="phone"></label>
+                                        <input
+                                            id="phone"
+                                            type="number"
+                                            placeholder="Телефон"
+                                            class="card__left-input" />
+                                        <div></div>
+                                    </div>
+                                    <div class="card__left-useForm-elem">
+                                        <label class="card__left-useForm-label" for="INN"></label>
+                                        <input
+                                            id="INN"
+                                            type="number"
+                                            placeholder="ИНН"
+                                            class="card__left-input" />
+                                        <div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="card__right">
+                <div class="card__right-header">
+                    <h2>Итого</h2>
+                    <h2 class="sum__all">2 101 063 сом</h2>
+                </div>
+                <div class="card__right-main">
+                    <div class="card__right-info">
+                        <div class="card__right-info-more">
+                            <h2 class="card__right-info-moretext">4 товара</h2>
+                            <h2 class="card__right-info-moretext">2 302 048 сом</h2>
+                        </div>
+                        <div class="card__right-info-more">
+                            <h2 class="card__right-info-moretext">Скидка</h2>
+                            <h2 class="card__right-info-moretext">-200 985 сом</h2>
+                        </div>
+                        <div class="card__right-info-more">
+                            <h2 class="card__right-info-moretext">Доставка</h2>
+                            <h2 class="card__right-info-moretext">Бесплатно</h2>
+                        </div>
+                    </div>
+                    <div class="card__right-address">
+                        <div class="card__right-address-full">
+                            <div class="card__right-address-header">
+                                <h4 class="card__right-address-h4">Доставка в пункт выдачи</h4>
+                                <img src="./img/change.svg" alt="change-img" class="change_img" />
+                            </div>
+                            <h4 class="card__right-address-info">
+                                Бишкек, улица Ахматбека Суюмбаева, 12/1
+                            </h4>
+                            <div class="card__right-address-date">5–8 фев</div>
+                        </div>
+                        <div class="card__right-address-moreinfo">
+                            <img src="./img/greencheck.svg" alt="green-check" />
+                            <h4 class="card__right-address-deli">
+                                Обратная доставка товаров на склад при отказе —
+                                <span>бесплатно</span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="card__right-pay">
+                        <div class="card__right-pay-full">
+                            <div class="card__right-pay-header">
+                                <h4 class="card__right-pay-h4">Оплата картой</h4>
+                                <img src="./img/change.svg" alt="change-img" class="change_img2" />
+                            </div>
+                            <div class="card__right-pay-footer">
+                                <img
+                                    class="card__right-pay-img"
+                                    src="./img/mir-pay.svg"
+                                    alt="mir-pay-card" />
+                                <div class="card__right-pay-number">1234 12•• •••• 1234</div>
+                            </div>
+                        </div>
+                        <div class="card__right-pay-moreinfo">
+                            <div class="card__right-pay-wrap">
+                                <input type="checkbox" id="checkbox5" class="checkbox-two" />
+                                <label for="checkbox5" class="checkbox-label-two">
+                                    <span class="checkbox-icon-two"></span>
+                                </label>
+                                <h5 class="card__right-pay-moreinfo-up">Списать оплату сразу</h5>
+                            </div>
+                            <h5 class="card__right-pay-moreinfo-down">
+                                Спишем оплату с карты при получении
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="card__right-footer">
+                        <button class="card__right-button">Заказать</button>
+                        <div class="card__right-rules">
+                            <img src="./img/rules.svg" alt="rules" />
+                            <h4 class="card__right-morerules">
+                                Соглашаюсь
+                                <span
+                                    >с правилами пользования торговой<br />
+                                    площадкой</span
+                                >
+                                и <span>возврата</span>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="footer__top">
+            <div class="footer__rectangle"></div>
+        </div>
+        <footer class="footer">
+            <div class="footer__main">
+                <h2>© 2022 ООО «Товары и точка»</h2>
+            </div>
+        </footer>
+        <div class="overlay hidden"></div>
+        <div class="modal-buy hidden">
+            <h2>Способ оплаты</h2>
+            <div>
+                <div>
+                    <input type="radio" />
+                    <img src="./img/mir-pay.svg" alt="mir-pay.svg" />
+                    <div>1234 56•• •••• 1234</div>
+                </div>
+                <div>
+                    <input type="radio" />
+                    <img src="" alt="" />
+                    <div>1234 56•• •••• 1234</div>
+                </div>
+                <div>
+                    <input type="radio" />
+                    <img src="" alt="" />
+                    <div>1234 56•• •••• 1234</div>
+                </div>
+                <div>
+                    <input type="radio" />
+                    <img src="" alt="" />
+                    <div>1234 56•• •••• 1234</div>
+                </div>
+            </div>
+            <button class="modal__buy-close">Выбрать</button>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
