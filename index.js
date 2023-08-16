@@ -40,7 +40,7 @@ window.addEventListener('DOMContentLoaded', function () {
     //чекбоксы , и их состояния , функция при которой нажатие на 1 чекбокс меняет остальные состояния
 
     function toggleCheckboxes() {
-        for (var i = 0; i < checkboxes.length; i++) {
+        for (let i = 0; i < checkboxes.length; i++) {
             checkboxes[i].checked = checkbox1.checked;
         }
     }
